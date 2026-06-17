@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run URAMS PHP server",
+      "type": "shell",
+      "command": "php",
+      "args": ["-S", "localhost:8000", "-t", "."],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
