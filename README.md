@@ -1,4 +1,4 @@
-# URAMS — University Result & Academic Management System
+# URAMS — UIU Result & Academic Management System
 
 <p align="center">
   <b>A role-based academic result management system for universities</b><br/>
