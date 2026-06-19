@@ -538,6 +538,14 @@
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--muted); border-radius: 3px; }
   </style>
+  
+  <!-- Vercel Web Analytics -->
+  <script>
+    window.va = window.va || function () { 
+      (window.vaq = window.vaq || []).push(arguments); 
+    };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -1209,7 +1217,7 @@
       }, { passive: true });
     })();
 
-    /* ─── MOBILE MENU ───────────────────────────── */
+    /* ─── MOBILE MENU ────────────────────────��──── */
     (function () {
       const btn  = document.getElementById('mobileToggle');
       const menu = document.getElementById('mobileMenu');
